@@ -1,0 +1,85 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@800&display=swap'); */
+@import url("https://fonts.googleapis.com/css2?family=Arimo&display=swap");
+
+body {
+    background: #fff;
+    overflow-x: hidden;
+    font-family: "Arimo", sans-serif !important;
+    color: #151515;
+}
+
+.illus {
+    height: 300px;
+    width: 300px;
+    margin-top: 420px;
+}
+
+.mid {
+    margin-top: 20px;
+}
+
+.mid h1 {
+    text-align: center;
+}
+
+form {
+    margin-top: 80px;
+}
+
+input {
+    margin-top: 10px !important;
+    /* margin-bottom: 5px !important; */
+}
+
+label {
+    padding: 5px 3px;
+}
+
+.tele {
+    margin-top: 10px !important;
+
+}
+
+.form-row {
+    margin: auto !important;
+}
+
+form button {
+    background: linear-gradient(to right, #0066cc 0%, #66ffff 100%);
+    border: none !important;
+    /* padding: 10px 0px !important; */
+    color: #151515 !important;
+    width: 180px !important;
+    border-radius: 25px !important;
+    margin: auto;
+}
+
+.button:focus,
+.button:active:focus,
+.button.active:focus,
+.button.focus,
+.button:active.focus,
+.button.active.focus {
+    outline: none !important;
+    outline: 0 !important;
+}
+
+.illus2 {
+    margin-left: 160px;
+    height: 300px;
+    width: 200px;
+}
+
+@media screen and (max-width: 992px) {
+    h1 {
+        font-size: 24px !important;
+    }
+
+    .illus2 {
+        display: none;
+    }
+
+    .illus {
+        display: none;
+    }
+}
