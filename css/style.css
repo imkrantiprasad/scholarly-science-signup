@@ -54,6 +54,11 @@ form button {
     margin: auto;
 }
 
+.form-row p {
+    padding-top: 20px !important;
+    margin: auto !important;
+}
+
 .button:focus,
 .button:active:focus,
 .button.active:focus,
