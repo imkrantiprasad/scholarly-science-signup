@@ -2,63 +2,63 @@
 @import url("https://fonts.googleapis.com/css2?family=Arimo&display=swap");
 
 body {
-    background: #fff;
-    overflow-x: hidden;
-    overflow-y: hidden;
-    font-family: "Arimo", sans-serif !important;
-    color: #151515;
+  background: #fff;
+  overflow-x: hidden;
+  overflow-y: hidden;
+  font-family: "Arimo", sans-serif !important;
+  color: #151515;
 }
 
 .illus {
-    height: 400px;
-    width: 400px;
-    margin-top: 380px;
+  height: 400px;
+  width: 400px;
+  margin-top: 380px;
 }
 
 .mid {
-    margin-top: 20px;
+  margin-top: 20px;
 }
 
 .mid h1 {
-    text-align: center;
-    margin-top: 80px;
-    font-family: "Roboto";
+  text-align: center;
+  margin-top: 80px;
+  font-family: "Roboto";
 }
 
 form {
-    margin-top: 15px;
+  margin-top: 15px;
 }
 
 input {
-    margin-top: 10px !important;
-    /* margin-bottom: 5px !important; */
+  margin-top: 10px !important;
+  /* margin-bottom: 5px !important; */
 }
 
 label {
-    padding: 5px 3px;
+  padding: 5px 3px;
 }
 
 .tele {
-    margin-top: 10px !important;
+  margin-top: 10px !important;
 }
 
 .form-row {
-    margin: auto !important;
+  margin: auto !important;
 }
 
 form button {
-    background: linear-gradient(to right, #0066cc 0%, #66ffff 100%);
-    border: none !important;
-    /* padding: 10px 0px !important; */
-    color: #151515 !important;
-    width: 180px !important;
-    border-radius: 25px !important;
-    margin: auto;
+  background: linear-gradient(to right, #0066cc 0%, #66ffff 100%);
+  border: none !important;
+  /* padding: 10px 0px !important; */
+  color: #151515 !important;
+  width: 180px !important;
+  border-radius: 25px !important;
+  margin: auto;
 }
 
 .form-row p {
-    padding-top: 20px !important;
-    margin: auto !important;
+  padding-top: 20px !important;
+  margin: auto !important;
 }
 
 .button:focus,
@@ -67,29 +67,33 @@ form button {
 .button.focus,
 .button:active.focus,
 .button.active.focus {
-    outline: none !important;
-    outline: 0 !important;
+  outline: none !important;
+  outline: 0 !important;
 }
 
 .illus2 img {
-    margin-left: 160px;
-    height: 700px;
-    margin-left: -250px;
-    width: 800px;
-    margin-top: -140px;
-    /* border: 1px solid red; */
+  margin-left: 160px;
+  height: 700px;
+  margin-left: -250px;
+  width: 800px;
+  margin-top: -140px;
+  /* border: 1px solid red; */
 }
 
 @media screen and (max-width: 992px) {
-    h1 {
-        font-size: 24px !important;
-    }
+  h1 {
+    font-size: 24px !important;
+  }
 
-    .illus2 {
-        display: none;
-    }
+  p {
+    font-size: 16px !important;
+  }
 
-    .illus {
-        display: none;
-    }
+  .illus2 {
+    display: none;
+  }
+
+  .illus {
+    display: none;
+  }
 }
