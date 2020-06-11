@@ -7,6 +7,8 @@ body {
   overflow-y: hidden;
   font-family: "Arimo", sans-serif !important;
   color: #151515;
+  width: 96%;
+  margin-left: 2%;
 }
 
 .illus {
@@ -74,7 +76,7 @@ form button {
 .illus2 img {
   margin-left: 160px;
   height: 700px;
-  margin-left: -250px;
+  margin-left: -150px;
   width: 800px;
   margin-top: -140px;
   /* border: 1px solid red; */
