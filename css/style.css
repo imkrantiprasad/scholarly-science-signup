@@ -31,7 +31,7 @@ body {
 }
 
 .mid {
-  margin-top: -130px;
+  margin-top: 50px;
 }
 
 .mid h1 {
@@ -119,6 +119,9 @@ form button {
 }
 
 @media screen and (max-width: 568px) {
+  .mid {
+    margin-top: -130px;
+  }
   .illus4 {
     display: block;
     height: auto;
