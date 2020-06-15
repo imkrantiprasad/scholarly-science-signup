@@ -24,6 +24,10 @@ body {
   position: fixed;
 }
 
+.illus4 {
+  /* display: none; */
+}
+
 .mid {
   margin-top: 20px;
 }
@@ -106,8 +110,18 @@ form button {
   }
 
   .illus {
-    /* display: none; */
+    display: none;
     margin-top: 0;
     margin-top: 250px;
   }
+}
+
+@media screen and (max-width: 568px) {
+  /* .illus4 {
+    display: block;
+    height: 100px;
+    width: 100px;
+    margin: 0;
+    padding: 0;
+  } */
 }
