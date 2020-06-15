@@ -84,14 +84,12 @@ form button {
   outline: 0 !important;
 }
 
-.illus2 img {
-  margin-left: 160px;
-  height: 700px;
-  margin-left: -150px;
-  width: 800px;
-  margin-top: -140px;
+.illus2 {
+  width: 900px;
+  /* height: 500px; */
+  margin-top: -450px;
+  margin-left: -270px;
   position: fixed;
-  /* border: 1px solid red; */
 }
 
 @media screen and (max-width: 992px) {
