@@ -7,12 +7,14 @@ body {
   /* overflow-y: hidden; */
   font-family: "Arimo", sans-serif !important;
   color: #151515;
+  margin: 0;
+  padding: 0;
   width: 96%;
   margin-left: 2%;
 }
 
 .illus3 {
-  position: fixed;
+  /* position: fixed; */
   margin-top: -80px;
   margin-left: 30px;
 }
@@ -25,11 +27,11 @@ body {
 }
 
 .illus4 {
-  /* display: none; */
+  display: none;
 }
 
 .mid {
-  margin-top: 20px;
+  margin-top: -130px;
 }
 
 .mid h1 {
@@ -117,11 +119,11 @@ form button {
 }
 
 @media screen and (max-width: 568px) {
-  /* .illus4 {
+  .illus4 {
     display: block;
-    height: 100px;
-    width: 100px;
+    height: auto;
+    width: 100%;
     margin: 0;
     padding: 0;
-  } */
+  }
 }
