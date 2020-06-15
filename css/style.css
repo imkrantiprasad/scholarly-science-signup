@@ -4,17 +4,24 @@
 body {
   background: #fff;
   overflow-x: hidden;
-  overflow-y: hidden;
+  /* overflow-y: hidden; */
   font-family: "Arimo", sans-serif !important;
   color: #151515;
   width: 96%;
   margin-left: 2%;
 }
 
+.illus3 {
+  position: fixed;
+  margin-top: -30px;
+  margin-left: -30px;
+}
+
 .illus {
   height: 400px;
   width: 400px;
-  margin-top: 380px;
+  margin-top: 340px;
+  position: fixed;
 }
 
 .mid {
@@ -79,6 +86,7 @@ form button {
   margin-left: -150px;
   width: 800px;
   margin-top: -140px;
+  position: fixed;
   /* border: 1px solid red; */
 }
 
