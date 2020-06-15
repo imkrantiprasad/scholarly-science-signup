@@ -106,6 +106,8 @@ form button {
   }
 
   .illus {
-    display: none;
+    /* display: none; */
+    margin-top: 0;
+    margin-top: 250px;
   }
 }
