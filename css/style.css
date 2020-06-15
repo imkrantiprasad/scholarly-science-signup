@@ -35,7 +35,7 @@ body {
 }
 
 .mid p {
-  font-family: 'Roboto';
+  font-family: "Roboto";
 }
 
 form {
@@ -85,10 +85,10 @@ form button {
 }
 
 .illus2 {
-  width: 900px;
+  width: 1400px;
   /* height: 500px; */
-  margin-top: -450px;
-  margin-left: -270px;
+  margin-top: -350px;
+  margin-left: -670px;
   position: fixed;
 }
 
