@@ -34,6 +34,7 @@ body {
 .mid {
   /* border: 1px solid red; */
   margin-top: 50px;
+  z-index: 999;
 }
 
 .mid h1 {
